@@ -1,5 +1,5 @@
 # Epicenter
-Shows past earthquakes by location and magnitude.
+An earthquake location and intensity tracker for people interested in the rumblings of the earth.
 
 Try it here: http://jasminepazer.com/projects/earthquake/
 
