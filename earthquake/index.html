@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Epicenter</title>
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="earthquakeMap.js"> </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgzBCPV2A2EHf5wqDBQVg6Lt29J9YXNZo&callback=initMap">
+    </script>
+      
+    <div id="header">
+      <h1>Epicenter</h1>
+    </div>
+    
+    <div id="body-div">
+      <div id="map"></div>
+      <div id="input">
+          <label for="location-input">Search Location:</label> 
+            <input id="location-input" type="text" name="location">
+            <input for="location-input" id="submit-button" type="submit" name="Submit">
+          <label for="radius">Search Radius:</label> 
+            <input id="radius" type ="range" min ="0.0" max="20001.6" step ="10" value ="2000"/>
+            <label id="radius-results">:2000</label>
+      </div>
+      <p> Each dot represents an earthquake that happened in the last 30 days. The size of the circle is relative to the magnitude of the earthquake.</p>
+        
+      <label id="loading">Loading...</label>  
+    </div>
+     
+
+  </body>
+</html>
