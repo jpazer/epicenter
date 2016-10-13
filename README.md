@@ -1,4 +1,4 @@
-# epicenter
+# Epicenter
 Shows past earthquakes by location and magnitude.
 
 Try it here: http://jasminepazer.com/projects/earthquake/
